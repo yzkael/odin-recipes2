@@ -1,0 +1,49 @@
+*{
+  text-align: center;
+  background-color: cornsilk;
+}
+#main_title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(247, 134, 5);
+    border: 1px solid black;
+}
+.recipes{
+    width: auto;
+    height: 500px;
+    background-color: rgb(219, 215, 202);
+    border: 5px solid black;
+    display:inline-block;
+}
+.labels_recipes,a{
+    background-color: rgb(219, 215, 202);
+    margin: 20px;
+    
+}
+
+.recipe_link{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 100px;
+    color: rgb(255, 153, 0);  
+    font-weight: 800;
+}
+.text_bloc{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 20%;
+}
+#text{
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+img{
+    border: 2px solid gold;
+}

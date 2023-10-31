@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1> 
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/locro.html">Locro</a>
-    <a href="recipes/majadito.html">Majadito</a>
+    <div class="container">
+        <h1 id="main_title">Odin Recipes</h1> 
+            <div id="recetas" class="recipes">
+                <div class="labels_recipes">
+                    <a href="recipes/lasagna.html" class="recipe_link">Lasagna</a>
+                    <a href="recipes/locro.html" class="recipe_link">Locro</a>
+                    <a href="recipes/majadito.html" class="recipe_link">Majadito</a>
 
+                </div>
+                <img src="img/lasagna.jpeg" alt="This is a picture of a finished lasagna" style="height: 150px; width: 350px;">
+                <img src="img/locro.jpeg" alt="This is a picture of a locro">
+                <img src="img/majadito.jpeg" alt="This is an image of a majadito" style="height: 150px; width: 350px;">
+                <div class="text_bloc">
+                    <pre id="text">
+                        Taste the most delicious meals here on the Odin project Recipes!
+                        Feel the real bolivian cuisine with the majadito and the locro! 
+                        Or go for an all time classic with the Lasagna! The choice is yours!
+                    </pre>
+                </div>
+            </div>
+    </div>
 </body>
 </html>
